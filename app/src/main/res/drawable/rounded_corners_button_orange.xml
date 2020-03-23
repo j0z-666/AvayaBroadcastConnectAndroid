@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Avaya Inc. - Proprietary (Restricted)
+  ~ Solely for authorized persons having a need to know
+  ~ pursuant to Company instructions.
+  ~
+  ~ Copyright 2015. Avaya Inc. All rights reserved.
+  ~ THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF Avaya Inc.
+  ~ The copyright notice above does not evidence any actual
+  ~ or intended publication of such source code.
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape>
+            <solid android:color="@color/mid_orange" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/mid_orange_disabled" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+</selector>

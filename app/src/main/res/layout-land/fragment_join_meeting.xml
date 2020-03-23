@@ -1,0 +1,229 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@drawable/light_grey_rect"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/light_grey_rect">
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/back"
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:drawableStart="@drawable/ic_back"
+                android:drawablePadding="12dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
+                android:textSize="30dp"
+                android:layout_marginRight="56dp"
+                android:text="@string/join_meeting"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:gravity="left"
+            android:text="@string/join_meeting_activity_desc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/light_grey_rect">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textSize="18dp"
+                android:text="@string/your_name" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:hint="@string/required"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                tools:text="Eti"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/light_grey_rect">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textSize="18dp"
+                android:text="@string/meeting_address" />
+
+            <EditText
+                android:id="@+id/meeting_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:hint="@string/required"
+                android:inputType="textWebEditText|textMultiLine"
+                android:maxLines="2"
+                tools:text="https://meetingsstg.avaya.com/portal/tenants/9022/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/light_grey_rect">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textSize="18dp"
+                android:text="@string/meeting_id" />
+
+            <EditText
+                android:id="@+id/meeting_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:hint="@string/required"
+                android:inputType="text"
+                android:maxLines="1"
+                tools:text="90397236457575"
+                />
+        </LinearLayout>
+
+        <!-- call me back feature is a future requirement. It will be implemented in later phase. For now, don't remove this comment
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:background="@drawable/light_grey_rect">
+
+            <CheckBox
+                android:id="@+id/call_me_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:enabled="true"
+                android:layout_marginLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingLeft="16dp"
+                android:textSize="18dp"
+                android:text="@string/meeting_call_me_back" />
+
+            <LinearLayout
+                android:id="@+id/call_me_back_layout"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:padding="8dp"
+                    android:textSize="20dp"
+                    android:text="@string/enter_number" />
+
+                <EditText
+                    android:id="@+id/call_me_back_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:hint="@string/required"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    />
+
+                    <ImageView
+                    android:id="@+id/call_me_back_number_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:paddingLeft="8dp"
+                    android:src="@drawable/ic_expand_more" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+-->
+
+        <Button
+            android:id="@+id/join_meeting"
+            android:layout_width="360dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_corners_button_orange"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:enabled="false"
+            android:textSize="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/join_meeting_button_label"
+            />
+
+    </LinearLayout>
+</ScrollView>
+

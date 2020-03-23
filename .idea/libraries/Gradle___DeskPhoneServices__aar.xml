@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :DeskPhoneServices:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/709d433eeee8e801f5e0a7aee343071c/jetified-DeskPhoneServices/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/709d433eeee8e801f5e0a7aee343071c/jetified-DeskPhoneServices/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

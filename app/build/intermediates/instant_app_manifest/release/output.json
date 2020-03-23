@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkData":{"type":"MAIN","splits":[],"versionCode":1,"versionName":"2.0_2_20200323_1259","enabled":true,"outputFile":"Connect_2_20200323_1259-release.apk","fullName":"release","baseName":"release"},"path":"AndroidManifest.xml","properties":{"packageId":"com.avaya.android.vantage.aaadevbroadcast","split":"","minSdkVersion":"26"}}]

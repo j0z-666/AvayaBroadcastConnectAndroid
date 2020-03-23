@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="video_controls_alpha">0.7</fraction>
+    <bool name="is_landscape">true</bool>
+</resources>

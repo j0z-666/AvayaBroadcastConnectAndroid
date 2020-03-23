@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="440dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context="com.avaya.android.vantage.aaadevbroadcast.fragments.JoinMeetingErrorFragment">
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/error_title"
+            android:paddingTop="48dp"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="18sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/error_text"
+            android:orientation="horizontal"
+            android:paddingTop="60dp">
+
+            <TextView
+                android:id="@+id/dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/dismiss"
+                android:textColor="@color/midOrange"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

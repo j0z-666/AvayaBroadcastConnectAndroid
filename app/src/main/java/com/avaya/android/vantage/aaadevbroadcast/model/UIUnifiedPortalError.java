@@ -1,0 +1,13 @@
+package com.avaya.android.vantage.aaadevbroadcast.model;
+
+public enum UIUnifiedPortalError {
+    ONE_TIME_PIN_REQUIRED,
+    FORBIDDEN_ONE_TIME_PIN_REQUIRED,
+    VIRTUAL_ROOM_NOT_FOUND,
+    TENANT_DOES_NOT_EXIST,
+    VIRTUAL_ROOM_DISABLED,
+    VIRTUAL_ROOM_DOES_NOT_ALLOW_INSTANT_MEETING,
+    INVALID_PARAMETER,
+    CERTIFICATE_ERROR,
+    FAILED
+}
