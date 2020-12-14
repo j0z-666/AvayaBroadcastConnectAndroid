@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\martinez71\\.gradle\\caches\\transforms-2\\files-2.1\\3ff2a8bc386c8b8da37cdff180086353\\material-1.0.0-beta01\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\martinez71\\.gradle\\caches\\transforms-2\\files-2.1\\64a95b1bf907496fb7022d15150123eb\\material-1.0.0-beta01\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,6 +20,23 @@
                         "endLines": "113",
                         "endColumns": "10",
                         "endOffsets": "5725"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\martinez71\\.gradle\\caches\\transforms-2\\files-2.1\\d1901a403da242c17abca393249f0d7f\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "142,212,283",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "207,278,346"
                     }
                 },
                 {
@@ -54,23 +71,6 @@
                         "startOffsets": "351,409,465,538,603,663,722,782,838,898,941,985,1030,1087,1149,1202",
                         "endColumns": "57,55,72,64,59,58,59,55,59,42,43,44,56,61,52,41",
                         "endOffsets": "404,460,533,598,658,717,777,833,893,936,980,1025,1082,1144,1197,1239"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\martinez71\\.gradle\\caches\\transforms-2\\files-2.1\\a1171a5fb1c1ae6bd9453e8d37b54d5a\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    },
-                    "to": {
-                        "startLines": "3,4,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "142,212,283",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "207,278,346"
                     }
                 },
                 {

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: :DeskPhoneServices:@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/709d433eeee8e801f5e0a7aee343071c/jetified-DeskPhoneServices/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/709d433eeee8e801f5e0a7aee343071c/jetified-DeskPhoneServices/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4daac17fd2cb754806a5152ca976730/jetified-DeskPhoneServices/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4daac17fd2cb754806a5152ca976730/jetified-DeskPhoneServices/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

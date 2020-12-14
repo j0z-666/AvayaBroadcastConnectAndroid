@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.avaya.android.vantage.aaadevbroadcast"
-4    android:versionCode="1"
-5    android:versionName="2.0_2_20200323_1259" >
+4    android:versionCode="2"
+5    android:versionName="2.0_7_20201214_1317" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="26"
@@ -100,23 +100,23 @@
 45-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:43:9-33
 46
 47    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-47-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:12:5-79
-47-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:12:22-76
+47-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:12:5-79
+47-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:12:22-76
 48    <uses-permission android:name="android.permission.DEVICE_POWER" />
-48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:14:5-71
-48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:14:22-68
+48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:14:5-71
+48-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:14:22-68
 49    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
-49-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:11:5-75
-49-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:11:22-72
+49-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:11:5-75
+49-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:11:22-72
 50    <uses-permission android:name="android.permission.CALL_PHONE" />
-50-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:12:5-69
-50-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:12:22-66
+50-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:12:5-69
+50-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:12:22-66
 51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-51-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:5-110
-51-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
+51-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:26:22-107
 52    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-52-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
-52-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+52-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+52-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
 53
 54    <application
 54-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:45:5-236:19
@@ -125,521 +125,522 @@
 56        android:allowBackup="false"
 56-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:47:9-36
 57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-57-->[androidx.core:core:1.0.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\13e54de9091d5402efa9dd4ecfb1a8fd\core-1.0.0\AndroidManifest.xml:22:18-86
-58        android:hardwareAccelerated="true"
-58-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:48:9-43
-59        android:icon="@drawable/ic_call_video24"
-59-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:49:9-49
-60        android:label="@string/app_name"
-60-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:50:9-41
-61        android:networkSecurityConfig="@xml/network_security_config"
-61-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:51:9-69
-62        android:resizeableActivity="false"
-62-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:55:9-43
-63        android:supportsRtl="true"
-63-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:52:9-35
-64        android:theme="@style/AppTheme" >
-64-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:53:9-40
-65        <meta-data
-65-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:57:9-59:87
-66            android:name="android.app.default_searchable"
-66-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:58:13-58
-67            android:value="com.avaya.android.vantage.basic.activities.MainActivity" />
-67-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:59:13-84
-68        <meta-data
-68-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:60:9-62:40
-69            android:name="AvayaClientServices"
-69-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:61:13-47
-70            android:value="308.0.90" />
-70-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:62:13-37
-71        <meta-data
-71-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:63:9-65:40
-72            android:name="audio.service.behavior"
-72-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:64:13-50
-73            android:value="override" />
-73-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:65:13-37
-74
-75        <activity
-75-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:67:9-111:20
-76            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivity"
-76-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:68:13-93
-77            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden"
-77-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:70:13-93
-78            android:label="@string/app_name"
-78-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:71:13-45
-79            android:launchMode="singleTask"
-79-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:72:13-44
-80            android:noHistory="true"
-80-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:73:13-37
-81            android:resizeableActivity="false"
-81-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:69:13-47
-82            android:theme="@style/AppTheme.NoActionBar" >
-82-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:74:13-56
-83            <intent-filter android:priority="100" >
-83-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:75:13-80:29
-83-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:75:28-50
-84                <action android:name="android.intent.action.LOGIN_STATE_CHANGED" />
-84-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:76:17-84
-84-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:76:25-81
-85                <action android:name="com.avaya.endpoint.action.SERVICE_IMPACTING_CHANGE" />
-85-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:77:17-93
-85-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:77:25-90
-86
-87                <category android:name="android.intent.category.LAUNCHER" />
-87-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:17-77
-87-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:27-74
-88            </intent-filter>
-89            <intent-filter>
-89-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:81:13-87:29
-90                <action android:name="android.intent.action.CALL" />
-90-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:82:17-69
-90-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:82:25-66
-91
-92                <category android:name="android.intent.category.DEFAULT" />
-92-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
-92-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
-93
-94                <data android:scheme="tel" />
-94-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:17-46
-94-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:23-43
-95            </intent-filter>
-96            <intent-filter>
-96-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:88:13-96:29
-97                <category android:name="android.intent.category.DEFAULT" />
-97-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
-97-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
-98                <category android:name="android.intent.category.BROWSABLE" />
-98-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:90:17-78
-98-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:90:27-75
-99
-100                <action android:name="android.intent.action.VIEW" />
-100-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:92:17-69
-100-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:92:25-66
-101                <action android:name="android.intent.action.DIAL" />
-101-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:93:17-69
-101-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:93:25-66
-102
-103                <data android:scheme="tel" />
-103-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:17-46
-103-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:23-43
-104            </intent-filter>
-105            <intent-filter>
-105-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:97:13-99:29
-106                <action android:name="android.intent.action.SEARCH" />
-106-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:98:17-71
-106-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:98:25-68
-107            </intent-filter>
-108
-109            <meta-data
-109-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:101:13-103:54
-110                android:name="android.app.searchable"
-110-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:102:17-54
-111                android:resource="@xml/searchable" />
-111-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:103:17-51
-112
-113            <intent-filter>
-113-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:105:13-107:29
-114                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
-114-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:106:17-90
-114-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:106:25-87
-115            </intent-filter>
-116            <intent-filter>
-116-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:108:13-110:29
-117                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
-117-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:109:17-90
-117-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:109:25-87
-118            </intent-filter>
-119        </activity>
-120        <activity
-120-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:113:9-121:20
-121            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK175"
-121-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:114:13-97
-122            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
-122-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:115:13-104
-123            android:label="@string/app_name"
-123-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:116:13-45
-124            android:launchMode="singleTask"
-124-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:117:13-44
-125            android:resizeableActivity="false"
-125-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:119:13-47
-126            android:screenOrientation="portrait"
-126-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:118:13-49
-127            android:theme="@style/AppTheme.NoActionBar" >
-127-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:120:13-56
-128        </activity>
-129        <activity
-129-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:123:9-130:20
-130            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
-130-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:124:13-97
-131            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
-131-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:125:13-104
-132            android:label="@string/app_name"
-132-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:126:13-45
-133            android:launchMode="singleTask"
-133-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:127:13-44
-134            android:resizeableActivity="false"
-134-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:128:13-47
-135            android:theme="@style/AppTheme.NoActionBar" >
-135-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:129:13-56
-136        </activity>
-137        <activity
-137-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:132:9-134:72
-138            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainLegalActivity"
-138-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:133:13-98
-139            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-139-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:134:13-69
-140        <activity
-140-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:135:9-137:64
-141            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.ErrorMessageActivity"
-141-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:136:13-101
-142            android:theme="@style/ErrorMessageActivityTheme" />
-142-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:137:13-61
-143        <activity
-143-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:138:9-141:56
-144            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.CallDialerActivity"
-144-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:139:13-99
-145            android:resizeableActivity="false"
-145-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:140:13-47
-146            android:theme="@style/Theme.Transparent" />
-146-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:141:13-53
-147
-148        <service android:name="com.avaya.android.vantage.aaadevbroadcast.notifications.NotificationService" />
-148-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:143:9-111
-148-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:143:18-108
-149        <service android:name="com.avaya.android.vantage.aaadevbroadcast.bluetooth.BluetoothStateService" />
-149-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:144:9-109
-149-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:144:18-106
-150
-151        <activity
-151-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:146:9-151:59
-152            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.TutorialActivity"
-152-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:147:13-97
-153            android:label="@string/app_name"
-153-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:149:13-45
-154            android:resizeableActivity="false"
-154-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:148:13-47
-155            android:screenOrientation="portrait"
-155-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:150:13-49
-156            android:theme="@style/AppTheme.NoActionBar" />
-156-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:151:13-56
-157        <activity
-157-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:152:9-156:59
-158            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.TutorialActivityK155"
-158-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:153:13-101
-159            android:label="@string/app_name"
-159-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:155:13-45
-160            android:resizeableActivity="false"
-160-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:154:13-47
-161            android:theme="@style/AppTheme.NoActionBar" />
-161-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:156:13-56
-162        <activity
-162-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:157:9-161:72
-163            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.UserPreferencesActivity"
-163-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:158:13-104
-164            android:label="User preferences"
-164-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:159:13-45
-165            android:parentActivityName="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
-165-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:160:13-111
-166            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-166-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:161:13-69
-167        <activity
-167-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:162:9-166:72
-168            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.SupportActivity"
-168-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:163:13-96
-169            android:label="Support"
-169-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:164:13-36
-170            android:parentActivityName="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
-170-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:165:13-111
-171            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-171-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:166:13-69
-172
-173        <receiver
-173-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:168:9-179:20
-174            android:name="com.avaya.deskphoneservices.DeskPhoneEventsBroadcastReceiver"
-174-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:169:13-88
-175            android:enabled="true" >
-175-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:170:13-35
-176            <intent-filter>
-176-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:172:13-178:29
-177                <action android:name="com.avaya.endpoint.action.CONFIG_CHANGED" />
-177-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:173:17-83
-177-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:173:25-80
-178                <action android:name="com.avaya.endpoint.action.RESTART" />
-178-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:174:17-76
-178-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:174:25-73
-179                <action android:name="com.avaya.endpoint.action.LOGIN_SIGNAL" />
-179-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:175:17-81
-179-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:175:25-78
-180                <action android:name="com.avaya.endpoint.action.LOGOUT_SIGNAL" />
-180-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:176:17-82
-180-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:176:25-79
-181                <action android:name="com.avaya.endpoint.action.MEDIA_BUTTON" />
-181-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:177:17-81
-181-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:177:25-78
-182            </intent-filter>
-183        </receiver>
-184        <receiver
-184-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:180:9-186:20
-185            android:name="com.avaya.android.vantage.aaadevbroadcast.MidnightGoogleAnalyticsStatistics"
-185-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:181:13-103
-186            android:enabled="true" >
-186-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:182:13-35
-187            <intent-filter>
-187-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:183:13-185:29
-188                <action android:name="com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS" />
-188-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:184:17-87
-188-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:184:25-84
-189            </intent-filter>
-190        </receiver>
-191        <receiver android:name="com.avaya.android.vantage.aaadevbroadcast.receiver.FinishCallDialerActivityReciver" >
-191-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:187:9-191:20
-191-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:187:19-116
-192            <intent-filter>
-192-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:188:13-190:29
-193                <action android:name="com.avaya.endpoint.FINISH_CALL_ACTIVITY" />
-193-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:189:17-82
-193-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:189:25-79
-194            </intent-filter>
-195        </receiver>
-196
-197        <provider
-197-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:193:9-203:20
-198            android:name="androidx.core.content.FileProvider"
-198-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:194:13-62
-199            android:authorities="com.avaya.android.vantage.devcala.provider"
-199-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:195:13-77
-200            android:exported="false"
-200-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:196:13-37
-201            android:grantUriPermissions="true" >
-201-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:197:13-47
-202
-203            <!-- resource file to create -->
-204            <meta-data
-204-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:199:13-202:25
-205                android:name="android.support.FILE_PROVIDER_PATHS"
-205-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:200:17-67
-206                android:resource="@xml/file_paths" >
-206-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:201:17-51
-207            </meta-data>
-208        </provider>
-209
-210        <activity
-210-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:205:9-214:20
-211            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.SplashActivity"
-211-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:206:13-95
-212            android:label="@string/app_name"
-212-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:207:13-45
-213            android:theme="@style/SplashTheme" >
-213-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:208:13-47
-214            <intent-filter android:priority="1000" >
-214-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:209:13-213:29
-214-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:209:28-51
-215                <action android:name="android.intent.action.MAIN" />
-215-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:210:17-69
-215-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:210:25-66
-216
-217                <category android:name="android.intent.category.LAUNCHER" />
-217-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:17-77
-217-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:27-74
-218            </intent-filter>
-219        </activity>
-220
-221        <service
-221-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:216:9-219:40
-222            android:name="com.avaya.android.vantage.aaadevbroadcast.RingerService"
-222-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:217:13-83
-223            android:enabled="true"
-223-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:218:13-35
-224            android:exported="false" />
-224-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:219:13-37
-225
-226        <activity
-226-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:221:9-222:49
-227            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.PermissionRequesterActivity"
-227-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:221:19-114
-228            android:theme="@style/SplashTheme" />
-228-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:222:13-47
-229
-230        <service
-230-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:224:9-234:19
-231            android:name="com.avaya.android.vantage.aaadevbroadcast.MyDream"
-231-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:225:13-77
-232            android:exported="true"
-232-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:226:13-36
-233            android:icon="@drawable/ic_branding_avaya"
-233-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:227:13-55
-234            android:label="Vantage ScreenSaver CALA"
-234-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:228:13-53
-235            android:permission="android.permission.BIND_DREAM_SERVICE" >
-235-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:229:13-71
-236            <intent-filter>
-236-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:230:13-233:29
-237                <action android:name="android.service.dreams.DreamService" />
-237-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:231:17-78
-237-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:231:25-75
-238
-239                <category android:name="android.intent.category.DEFAULT" />
-239-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
-239-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
-240            </intent-filter>
-241        </service>
-242
-243        <uses-library
-243-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:17:9-19:40
-244            android:name="org.apache.http.legacy"
-244-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:18:13-50
-245            android:required="false" />
-245-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\904f24c859750d9171d98d3047cffc62\AvayaClientServices\AndroidManifest.xml:19:13-37
-246
-247        <service
-247-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:16:9-24:19
-248            android:name="com.avaya.deskphoneservices.telecomService.TelecomConnectionService"
-248-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:17:13-95
-249            android:enabled="true"
-249-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:18:13-35
-250            android:exported="true"
-250-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:19:13-36
-251            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
-251-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:20:13-84
-252            <intent-filter>
-252-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:21:13-23:29
-253                <action android:name="android.telecom.ConnectionService" />
-253-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:22:17-76
-253-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\709d433eeee8e801f5e0a7aee343071c\jetified-DeskPhoneServices\AndroidManifest.xml:22:25-73
-254            </intent-filter>
-255        </service>
-256        <service
-256-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\047392988101576fc1de5753a266d356\room-runtime-2.2.0-rc01\AndroidManifest.xml:25:9-27:40
-257            android:name="androidx.room.MultiInstanceInvalidationService"
-257-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\047392988101576fc1de5753a266d356\room-runtime-2.2.0-rc01\AndroidManifest.xml:26:13-74
-258            android:exported="false" />
-258-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\047392988101576fc1de5753a266d356\room-runtime-2.2.0-rc01\AndroidManifest.xml:27:13-37
-259
-260        <receiver
-260-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
-261            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-261-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
-262            android:enabled="true"
-262-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
-263            android:exported="false" >
-263-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
-264        </receiver>
-265        <receiver
-265-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
-266            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-266-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
-267            android:enabled="true"
-267-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
-268            android:exported="true"
-268-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
-269            android:permission="android.permission.INSTALL_PACKAGES" >
-269-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
-270            <intent-filter>
-270-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
-271                <action android:name="com.android.vending.INSTALL_REFERRER" />
-271-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
-271-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
-272            </intent-filter>
-273        </receiver>
-274
-275        <service
-275-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
-276            android:name="com.google.android.gms.measurement.AppMeasurementService"
-276-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
-277            android:enabled="true"
-277-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
-278            android:exported="false" />
-278-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
-279        <service
-279-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
-280            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-280-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
-281            android:enabled="true"
-281-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
-282            android:exported="false"
-282-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
-283            android:permission="android.permission.BIND_JOB_SERVICE" />
-283-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\895e4c072e0d8d401f18ba7e5c2927e8\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
-284        <service
-284-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:27:9-33:19
-285            android:name="com.google.firebase.components.ComponentDiscoveryService"
-285-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:28:13-84
-286            android:exported="false" >
-286-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:29:13-37
-287            <meta-data
-287-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:30:13-32:85
-288                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-288-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:31:17-139
-289                android:value="com.google.firebase.components.ComponentRegistrar" />
-289-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\5d86b09b9cc70a27d67942b597020ce4\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:32:17-82
-290            <meta-data
-290-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
-291                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-291-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
-292                android:value="com.google.firebase.components.ComponentRegistrar" />
-292-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
-293        </service>
-294
-295        <receiver
-295-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
-296            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-296-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
-297            android:exported="true"
-297-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
-298            android:permission="com.google.android.c2dm.permission.SEND" >
-298-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
-299            <intent-filter>
-299-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
-300                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-300-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
-300-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
-301            </intent-filter>
-302        </receiver>
-303        <!--
-304             FirebaseInstanceIdService performs security checks at runtime,
-305             no need for explicit permissions despite exported="true"
-306        -->
-307        <service
-307-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
-308            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-308-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
-309            android:exported="true" >
-309-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
-310            <intent-filter android:priority="-500" >
-310-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-310-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
-311                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-311-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-311-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\0cdee917b94d99444cba8be9b54b4658\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
-312            </intent-filter>
-313        </service>
-314
-315        <provider
-315-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f8f9cf83336d90b639164ec2f02877fe\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-316            android:name="com.google.firebase.provider.FirebaseInitProvider"
-316-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f8f9cf83336d90b639164ec2f02877fe\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-317            android:authorities="com.avaya.android.vantage.aaadevbroadcast.firebaseinitprovider"
-317-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f8f9cf83336d90b639164ec2f02877fe\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-318            android:exported="false"
-318-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f8f9cf83336d90b639164ec2f02877fe\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-319            android:initOrder="100" />
-319-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f8f9cf83336d90b639164ec2f02877fe\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-320
-321        <activity
-321-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\b4e6103f2bd2ff08027f7a660a3e0377\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-322            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-322-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\b4e6103f2bd2ff08027f7a660a3e0377\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-323            android:exported="false"
-323-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\b4e6103f2bd2ff08027f7a660a3e0377\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-324            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-324-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\b4e6103f2bd2ff08027f7a660a3e0377\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-325
-326        <meta-data
-326-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d817b55263201e12a961a6f98e135202\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
-327            android:name="com.google.android.gms.version"
-327-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d817b55263201e12a961a6f98e135202\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
-328            android:value="@integer/google_play_services_version" />
-328-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d817b55263201e12a961a6f98e135202\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
-329    </application>
-330
-331</manifest>
+57-->[androidx.core:core:1.0.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\dfa4be660af262fe57346ed5894457e1\core-1.0.0\AndroidManifest.xml:22:18-86
+58        android:extractNativeLibs="false"
+59        android:hardwareAccelerated="true"
+59-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:48:9-43
+60        android:icon="@drawable/ic_call_video24"
+60-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:49:9-49
+61        android:label="@string/app_name"
+61-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:50:9-41
+62        android:networkSecurityConfig="@xml/network_security_config"
+62-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:51:9-69
+63        android:resizeableActivity="false"
+63-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:55:9-43
+64        android:supportsRtl="true"
+64-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:52:9-35
+65        android:theme="@style/AppTheme" >
+65-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:53:9-40
+66        <meta-data
+66-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:57:9-59:87
+67            android:name="android.app.default_searchable"
+67-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:58:13-58
+68            android:value="com.avaya.android.vantage.basic.activities.MainActivity" />
+68-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:59:13-84
+69        <meta-data
+69-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:60:9-62:40
+70            android:name="AvayaClientServices"
+70-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:61:13-47
+71            android:value="308.0.90" />
+71-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:62:13-37
+72        <meta-data
+72-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:63:9-65:40
+73            android:name="audio.service.behavior"
+73-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:64:13-50
+74            android:value="override" />
+74-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:65:13-37
+75
+76        <activity
+76-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:67:9-111:20
+77            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivity"
+77-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:68:13-93
+78            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden"
+78-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:70:13-93
+79            android:label="@string/app_name"
+79-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:71:13-45
+80            android:launchMode="singleTask"
+80-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:72:13-44
+81            android:noHistory="true"
+81-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:73:13-37
+82            android:resizeableActivity="false"
+82-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:69:13-47
+83            android:theme="@style/AppTheme.NoActionBar" >
+83-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:74:13-56
+84            <intent-filter android:priority="100" >
+84-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:75:13-80:29
+84-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:75:28-50
+85                <action android:name="android.intent.action.LOGIN_STATE_CHANGED" />
+85-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:76:17-84
+85-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:76:25-81
+86                <action android:name="com.avaya.endpoint.action.SERVICE_IMPACTING_CHANGE" />
+86-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:77:17-93
+86-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:77:25-90
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:17-77
+88-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:27-74
+89            </intent-filter>
+90            <intent-filter>
+90-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:81:13-87:29
+91                <action android:name="android.intent.action.CALL" />
+91-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:82:17-69
+91-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:82:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
+93-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
+94
+95                <data android:scheme="tel" />
+95-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:17-46
+95-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:23-43
+96            </intent-filter>
+97            <intent-filter>
+97-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:88:13-96:29
+98                <category android:name="android.intent.category.DEFAULT" />
+98-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
+98-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
+99                <category android:name="android.intent.category.BROWSABLE" />
+99-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:90:17-78
+99-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:90:27-75
+100
+101                <action android:name="android.intent.action.VIEW" />
+101-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:92:17-69
+101-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:92:25-66
+102                <action android:name="android.intent.action.DIAL" />
+102-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:93:17-69
+102-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:93:25-66
+103
+104                <data android:scheme="tel" />
+104-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:17-46
+104-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:86:23-43
+105            </intent-filter>
+106            <intent-filter>
+106-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:97:13-99:29
+107                <action android:name="android.intent.action.SEARCH" />
+107-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:98:17-71
+107-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:98:25-68
+108            </intent-filter>
+109
+110            <meta-data
+110-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:101:13-103:54
+111                android:name="android.app.searchable"
+111-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:102:17-54
+112                android:resource="@xml/searchable" />
+112-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:103:17-51
+113
+114            <intent-filter>
+114-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:105:13-107:29
+115                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+115-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:106:17-90
+115-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:106:25-87
+116            </intent-filter>
+117            <intent-filter>
+117-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:108:13-110:29
+118                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+118-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:109:17-90
+118-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:109:25-87
+119            </intent-filter>
+120        </activity>
+121        <activity
+121-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:113:9-121:20
+122            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK175"
+122-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:114:13-97
+123            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
+123-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:115:13-104
+124            android:label="@string/app_name"
+124-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:116:13-45
+125            android:launchMode="singleTask"
+125-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:117:13-44
+126            android:resizeableActivity="false"
+126-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:119:13-47
+127            android:screenOrientation="portrait"
+127-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:118:13-49
+128            android:theme="@style/AppTheme.NoActionBar" >
+128-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:120:13-56
+129        </activity>
+130        <activity
+130-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:123:9-130:20
+131            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
+131-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:124:13-97
+132            android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation"
+132-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:125:13-104
+133            android:label="@string/app_name"
+133-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:126:13-45
+134            android:launchMode="singleTask"
+134-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:127:13-44
+135            android:resizeableActivity="false"
+135-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:128:13-47
+136            android:theme="@style/AppTheme.NoActionBar" >
+136-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:129:13-56
+137        </activity>
+138        <activity
+138-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:132:9-134:72
+139            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainLegalActivity"
+139-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:133:13-98
+140            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+140-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:134:13-69
+141        <activity
+141-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:135:9-137:64
+142            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.ErrorMessageActivity"
+142-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:136:13-101
+143            android:theme="@style/ErrorMessageActivityTheme" />
+143-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:137:13-61
+144        <activity
+144-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:138:9-141:56
+145            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.CallDialerActivity"
+145-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:139:13-99
+146            android:resizeableActivity="false"
+146-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:140:13-47
+147            android:theme="@style/Theme.Transparent" />
+147-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:141:13-53
+148
+149        <service android:name="com.avaya.android.vantage.aaadevbroadcast.notifications.NotificationService" />
+149-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:143:9-111
+149-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:143:18-108
+150        <service android:name="com.avaya.android.vantage.aaadevbroadcast.bluetooth.BluetoothStateService" />
+150-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:144:9-109
+150-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:144:18-106
+151
+152        <activity
+152-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:146:9-151:59
+153            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.TutorialActivity"
+153-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:147:13-97
+154            android:label="@string/app_name"
+154-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:149:13-45
+155            android:resizeableActivity="false"
+155-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:148:13-47
+156            android:screenOrientation="portrait"
+156-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:150:13-49
+157            android:theme="@style/AppTheme.NoActionBar" />
+157-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:151:13-56
+158        <activity
+158-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:152:9-156:59
+159            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.TutorialActivityK155"
+159-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:153:13-101
+160            android:label="@string/app_name"
+160-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:155:13-45
+161            android:resizeableActivity="false"
+161-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:154:13-47
+162            android:theme="@style/AppTheme.NoActionBar" />
+162-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:156:13-56
+163        <activity
+163-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:157:9-161:72
+164            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.UserPreferencesActivity"
+164-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:158:13-104
+165            android:label="User preferences"
+165-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:159:13-45
+166            android:parentActivityName="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
+166-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:160:13-111
+167            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+167-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:161:13-69
+168        <activity
+168-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:162:9-166:72
+169            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.SupportActivity"
+169-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:163:13-96
+170            android:label="Support"
+170-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:164:13-36
+171            android:parentActivityName="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivityK155"
+171-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:165:13-111
+172            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+172-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:166:13-69
+173
+174        <receiver
+174-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:168:9-179:20
+175            android:name="com.avaya.deskphoneservices.DeskPhoneEventsBroadcastReceiver"
+175-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:169:13-88
+176            android:enabled="true" >
+176-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:170:13-35
+177            <intent-filter>
+177-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:172:13-178:29
+178                <action android:name="com.avaya.endpoint.action.CONFIG_CHANGED" />
+178-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:173:17-83
+178-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:173:25-80
+179                <action android:name="com.avaya.endpoint.action.RESTART" />
+179-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:174:17-76
+179-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:174:25-73
+180                <action android:name="com.avaya.endpoint.action.LOGIN_SIGNAL" />
+180-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:175:17-81
+180-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:175:25-78
+181                <action android:name="com.avaya.endpoint.action.LOGOUT_SIGNAL" />
+181-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:176:17-82
+181-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:176:25-79
+182                <action android:name="com.avaya.endpoint.action.MEDIA_BUTTON" />
+182-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:177:17-81
+182-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:177:25-78
+183            </intent-filter>
+184        </receiver>
+185        <receiver
+185-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:180:9-186:20
+186            android:name="com.avaya.android.vantage.aaadevbroadcast.MidnightGoogleAnalyticsStatistics"
+186-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:181:13-103
+187            android:enabled="true" >
+187-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:182:13-35
+188            <intent-filter>
+188-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:183:13-185:29
+189                <action android:name="com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS" />
+189-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:184:17-87
+189-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:184:25-84
+190            </intent-filter>
+191        </receiver>
+192        <receiver android:name="com.avaya.android.vantage.aaadevbroadcast.receiver.FinishCallDialerActivityReciver" >
+192-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:187:9-191:20
+192-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:187:19-116
+193            <intent-filter>
+193-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:188:13-190:29
+194                <action android:name="com.avaya.endpoint.FINISH_CALL_ACTIVITY" />
+194-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:189:17-82
+194-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:189:25-79
+195            </intent-filter>
+196        </receiver>
+197
+198        <provider
+198-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:193:9-203:20
+199            android:name="androidx.core.content.FileProvider"
+199-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:194:13-62
+200            android:authorities="com.avaya.android.vantage.devcala.provider"
+200-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:195:13-77
+201            android:exported="false"
+201-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:196:13-37
+202            android:grantUriPermissions="true" >
+202-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:197:13-47
+203
+204            <!-- resource file to create -->
+205            <meta-data
+205-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:199:13-202:25
+206                android:name="android.support.FILE_PROVIDER_PATHS"
+206-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:200:17-67
+207                android:resource="@xml/file_paths" >
+207-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:201:17-51
+208            </meta-data>
+209        </provider>
+210
+211        <activity
+211-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:205:9-214:20
+212            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.SplashActivity"
+212-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:206:13-95
+213            android:label="@string/app_name"
+213-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:207:13-45
+214            android:theme="@style/SplashTheme" >
+214-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:208:13-47
+215            <intent-filter android:priority="1000" >
+215-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:209:13-213:29
+215-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:209:28-51
+216                <action android:name="android.intent.action.MAIN" />
+216-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:210:17-69
+216-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:210:25-66
+217
+218                <category android:name="android.intent.category.LAUNCHER" />
+218-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:17-77
+218-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:79:27-74
+219            </intent-filter>
+220        </activity>
+221
+222        <service
+222-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:216:9-219:40
+223            android:name="com.avaya.android.vantage.aaadevbroadcast.RingerService"
+223-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:217:13-83
+224            android:enabled="true"
+224-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:218:13-35
+225            android:exported="false" />
+225-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:219:13-37
+226
+227        <activity
+227-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:221:9-222:49
+228            android:name="com.avaya.android.vantage.aaadevbroadcast.activities.PermissionRequesterActivity"
+228-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:221:19-114
+229            android:theme="@style/SplashTheme" />
+229-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:222:13-47
+230
+231        <service
+231-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:224:9-234:19
+232            android:name="com.avaya.android.vantage.aaadevbroadcast.MyDream"
+232-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:225:13-77
+233            android:exported="true"
+233-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:226:13-36
+234            android:icon="@drawable/ic_branding_avaya"
+234-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:227:13-55
+235            android:label="Vantage ScreenSaver CALA"
+235-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:228:13-53
+236            android:permission="android.permission.BIND_DREAM_SERVICE" >
+236-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:229:13-71
+237            <intent-filter>
+237-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:230:13-233:29
+238                <action android:name="android.service.dreams.DreamService" />
+238-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:231:17-78
+238-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:231:25-75
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:17-76
+240-->C:\Users\martinez71\StudioProjects\VC\app\src\main\AndroidManifest.xml:84:27-73
+241            </intent-filter>
+242        </service>
+243
+244        <uses-library
+244-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:17:9-19:40
+245            android:name="org.apache.http.legacy"
+245-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:18:13-50
+246            android:required="false" />
+246-->[:AvayaClientServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\29960f416de363809b7af3b389542d42\jetified-AvayaClientServices\AndroidManifest.xml:19:13-37
+247
+248        <service
+248-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:16:9-24:19
+249            android:name="com.avaya.deskphoneservices.telecomService.TelecomConnectionService"
+249-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:17:13-95
+250            android:enabled="true"
+250-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:18:13-35
+251            android:exported="true"
+251-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:19:13-36
+252            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+252-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:20:13-84
+253            <intent-filter>
+253-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:21:13-23:29
+254                <action android:name="android.telecom.ConnectionService" />
+254-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:22:17-76
+254-->[:DeskPhoneServices:] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a4daac17fd2cb754806a5152ca976730\jetified-DeskPhoneServices\AndroidManifest.xml:22:25-73
+255            </intent-filter>
+256        </service>
+257        <service
+257-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\98bd066fc065a5284d09512216cb9ae9\room-runtime-2.2.0-rc01\AndroidManifest.xml:25:9-27:40
+258            android:name="androidx.room.MultiInstanceInvalidationService"
+258-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\98bd066fc065a5284d09512216cb9ae9\room-runtime-2.2.0-rc01\AndroidManifest.xml:26:13-74
+259            android:exported="false" />
+259-->[androidx.room:room-runtime:2.2.0-rc01] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\98bd066fc065a5284d09512216cb9ae9\room-runtime-2.2.0-rc01\AndroidManifest.xml:27:13-37
+260
+261        <receiver
+261-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:29:9-33:20
+262            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+262-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:30:13-85
+263            android:enabled="true"
+263-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:31:13-35
+264            android:exported="false" >
+264-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:32:13-37
+265        </receiver>
+266        <receiver
+266-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:34:9-42:20
+267            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+267-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:35:13-100
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:36:13-35
+269            android:exported="true"
+269-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:37:13-36
+270            android:permission="android.permission.INSTALL_PACKAGES" >
+270-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:38:13-69
+271            <intent-filter>
+271-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:39:13-41:29
+272                <action android:name="com.android.vending.INSTALL_REFERRER" />
+272-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:17-79
+272-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:40:25-76
+273            </intent-filter>
+274        </receiver>
+275
+276        <service
+276-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:44:9-47:40
+277            android:name="com.google.android.gms.measurement.AppMeasurementService"
+277-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:45:13-84
+278            android:enabled="true"
+278-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:46:13-35
+279            android:exported="false" />
+279-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:47:13-37
+280        <service
+280-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:48:9-52:72
+281            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+281-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:49:13-87
+282            android:enabled="true"
+282-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:50:13-35
+283            android:exported="false"
+283-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:51:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" />
+284-->[com.google.android.gms:play-services-measurement:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e847205633a679f57764d425f2f74dbf\jetified-play-services-measurement-16.4.0\AndroidManifest.xml:52:13-69
+285        <service
+285-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:27:9-33:19
+286            android:name="com.google.firebase.components.ComponentDiscoveryService"
+286-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:28:13-84
+287            android:exported="false" >
+287-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:29:13-37
+288            <meta-data
+288-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:30:13-32:85
+289                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+289-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:31:17-139
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\a2cb905880973e916a148dd7b18ad0b9\jetified-play-services-measurement-api-16.4.0\AndroidManifest.xml:32:17-82
+291            <meta-data
+291-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+292                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+292-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+293                android:value="com.google.firebase.components.ComponentRegistrar" />
+293-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+294        </service>
+295
+296        <receiver
+296-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+297            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+297-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+298            android:exported="true"
+298-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+299            android:permission="com.google.android.c2dm.permission.SEND" >
+299-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+300            <intent-filter>
+300-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+301                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+301-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
+301-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
+302            </intent-filter>
+303        </receiver>
+304        <!--
+305             FirebaseInstanceIdService performs security checks at runtime,
+306             no need for explicit permissions despite exported="true"
+307        -->
+308        <service
+308-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+309            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+309-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+310            android:exported="true" >
+310-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+311            <intent-filter android:priority="-500" >
+311-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+311-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+312                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+312-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+312-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\f7025fd106eef6225e4d968d23ca5679\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+313            </intent-filter>
+314        </service>
+315
+316        <provider
+316-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e21798c658bdcd440cc71ab3e9aa767e\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+317            android:name="com.google.firebase.provider.FirebaseInitProvider"
+317-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e21798c658bdcd440cc71ab3e9aa767e\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+318            android:authorities="com.avaya.android.vantage.aaadevbroadcast.firebaseinitprovider"
+318-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e21798c658bdcd440cc71ab3e9aa767e\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+319            android:exported="false"
+319-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e21798c658bdcd440cc71ab3e9aa767e\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+320            android:initOrder="100" />
+320-->[com.google.firebase:firebase-common:16.0.3] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\e21798c658bdcd440cc71ab3e9aa767e\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+321
+322        <activity
+322-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d9c04490b575c6515172cb91940fb0e4\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+323            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+323-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d9c04490b575c6515172cb91940fb0e4\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+324            android:exported="false"
+324-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d9c04490b575c6515172cb91940fb0e4\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+325            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+325-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\d9c04490b575c6515172cb91940fb0e4\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+326
+327        <meta-data
+327-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\bf652690b0458a47ee2268256cc4e6fa\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+328            android:name="com.google.android.gms.version"
+328-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\bf652690b0458a47ee2268256cc4e6fa\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+329            android:value="@integer/google_play_services_version" />
+329-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\martinez71\.gradle\caches\transforms-2\files-2.1\bf652690b0458a47ee2268256cc4e6fa\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+330    </application>
+331
+332</manifest>

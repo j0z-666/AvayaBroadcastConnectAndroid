@@ -1,10 +1,10 @@
-#Mon Mar 23 12:59:51 CST 2020
+#Mon Dec 14 13:18:25 CST 2020
+base.2=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\out\\classes3.dex
 path.2=classes3.dex
+base.1=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\out\\classes2.dex
 path.1=classes2.dex
-path.0=classes.dex
+base.0=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes3.dex
-base.1=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes2.dex
-base.0=C\:\\Users\\martinez71\\StudioProjects\\VC\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+path.0=classes.dex

@@ -716,7 +716,7 @@ public abstract class BaseActivity extends AppCompatActivity implements DialerFr
                 }*/
 
                 try {
-                    socket = IO.socket("https://aaadevbroadcast.appspot.com", opts);
+                    socket = IO.socket("https://ccai-av-482f1fe9008cf4.uc.r.appspot.com/", opts);
                 } catch (URISyntaxException e) {
                     e.printStackTrace();
                 }
