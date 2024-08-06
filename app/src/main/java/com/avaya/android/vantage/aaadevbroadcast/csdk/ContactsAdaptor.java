@@ -161,6 +161,11 @@ public class ContactsAdaptor implements ContactServiceListener {
 
     }
 
+    @Override
+    public void onContactServiceSelfContactUpdated(ContactService contactService, Contact contact) {
+
+    }
+
     /**
      * Start editing of enterprise contacts
      *

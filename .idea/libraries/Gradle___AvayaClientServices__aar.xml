@@ -1,8 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: :AvayaClientServices:@aar">
+  <library name="Gradle: :AvayaClientServices:@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29960f416de363809b7af3b389542d42/jetified-AvayaClientServices/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29960f416de363809b7af3b389542d42/jetified-AvayaClientServices/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/5453fa09d2720ab351bbb5165e585759/transformed/jetified-AvayaClientServices/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/5453fa09d2720ab351bbb5165e585759/transformed/jetified-AvayaClientServices/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/5453fa09d2720ab351bbb5165e585759/transformed/jetified-AvayaClientServices/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

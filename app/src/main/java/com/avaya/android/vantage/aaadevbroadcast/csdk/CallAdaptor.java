@@ -24,6 +24,7 @@ import com.avaya.android.vantage.aaadevbroadcast.model.UIAudioDevice;
 import com.avaya.android.vantage.aaadevbroadcast.model.UICall;
 import com.avaya.android.vantage.aaadevbroadcast.model.UICallState;
 import com.avaya.android.vantage.aaadevbroadcast.notifications.CallNotificationFactory;
+import com.avaya.clientservices.agent.ButtonLampState;
 import com.avaya.clientservices.call.AddressDigit;
 import com.avaya.clientservices.call.AllowedVideoDirection;
 import com.avaya.clientservices.call.Call;
@@ -35,6 +36,7 @@ import com.avaya.clientservices.call.CallException;
 import com.avaya.clientservices.call.CallListener;
 import com.avaya.clientservices.call.CallPrecedenceLevel;
 import com.avaya.clientservices.call.CallPreemptionReason;
+import com.avaya.clientservices.call.CallRecordingState;
 import com.avaya.clientservices.call.CallService;
 import com.avaya.clientservices.call.CallServiceListener;
 import com.avaya.clientservices.call.CallState;
@@ -53,6 +55,10 @@ import com.avaya.clientservices.call.feature.CallPickupAlertParameters;
 import com.avaya.clientservices.call.feature.EnhancedCallForwardingStatus;
 import com.avaya.clientservices.call.feature.FeatureStatusParameters;
 import com.avaya.clientservices.call.feature.FeatureType;
+import com.avaya.clientservices.call.feature.ServiceObservingError;
+import com.avaya.clientservices.call.feature.ServiceObservingStatusParameters;
+import com.avaya.clientservices.call.feature.ServiceObservingType;
+import com.avaya.clientservices.call.feature.SimRingCallbackStatusParameters;
 import com.avaya.clientservices.call.feature.TeamButton;
 import com.avaya.clientservices.call.feature.TeamButtonIncomingCall;
 import com.avaya.clientservices.media.AudioMode;
@@ -1470,6 +1476,11 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
     }
 
     @Override
+    public void onCallLongHoldTimeExpired(Call call) {
+
+    }
+
+    @Override
     public void onCallJoined(Call call) {
         Log.d(LOG_TAG, getCurrentMethodName());
     }
@@ -1652,6 +1663,11 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
     }
 
     @Override
+    public void onCallRemoteControlVideoModeRequested(Call call, VideoMode videoMode) {
+
+    }
+
+    @Override
     public void onCallConferenceStatusChanged(Call call, boolean isConference) {
         Log.d(LOG_TAG, getCurrentMethodName() + " " + call.getCallId());
         VideoManager videoManager = (VideoManager) mVideoMap.get(call.getCallId());
@@ -1745,6 +1761,16 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
     }
 
     @Override
+    public void onCallRecordingStateChanged(Call call, CallRecordingState callRecordingState) {
+
+    }
+
+    @Override
+    public void onCallSecureIndicationChanged(Call call, boolean b) {
+
+    }
+
+    @Override
     public void onCallFeatureServiceAvailable(CallFeatureService callFeatureService) {
         Log.d(LOG_TAG, getCurrentMethodName());
     }
@@ -1815,6 +1841,11 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
     }
 
     @Override
+    public void onAutoCallbackListChanged(CallFeatureService callFeatureService, List<String> list) {
+
+    }
+
+    @Override
     public void onBusyIndicatorChanged(CallFeatureService callFeatureService, BusyIndicator busyIndicator) {
         Log.d(LOG_TAG, getCurrentMethodName());
     }
@@ -1857,6 +1888,11 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
 
     }
 
+    @Override
+    public void onIncomingTeamButtonCallUpdated(CallFeatureService callFeatureService, TeamButton teamButton, TeamButtonIncomingCall teamButtonIncomingCall) {
+
+    }
+
     /**
      * Occurs when the incoming call to monitored station stops ringing.
      * <p>
@@ -1884,6 +1920,36 @@ public class CallAdaptor implements CallListener, CallServiceListener, CallFeatu
      */
     @Override
     public void onTeamButtonForwardingStatusChanged(CallFeatureService callFeatureService, TeamButton teamButton) {
+
+    }
+
+    @Override
+    public void onMaliciousCallTraceStatusChanged(CallFeatureService callFeatureService, boolean b) {
+
+    }
+
+    @Override
+    public void onServiceObservingEnabled(CallFeatureService callFeatureService, String s, ServiceObservingType serviceObservingType, ButtonLampState buttonLampState) {
+
+    }
+
+    @Override
+    public void onServiceObservingDisabled(CallFeatureService callFeatureService) {
+
+    }
+
+    @Override
+    public void onServiceObservingStatusChanged(CallFeatureService callFeatureService, ServiceObservingStatusParameters serviceObservingStatusParameters) {
+
+    }
+
+    @Override
+    public void onServiceObservingErrorReceived(CallFeatureService callFeatureService, ServiceObservingError serviceObservingError) {
+
+    }
+
+    @Override
+    public void onSimRingCallbackStatusChanged(CallFeatureService callFeatureService, boolean b, SimRingCallbackStatusParameters simRingCallbackStatusParameters) {
 
     }
 

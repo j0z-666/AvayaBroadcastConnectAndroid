@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.avaya.android.vantage.aaadevbroadcast">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -17,6 +16,7 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="com.avaya.endpoint.pbap.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
     <uses-permission android:name="android.permission.BIND_DREAM_SERVICE"/>
     <uses-permission
         android:name="android.permission.READ_PHONE_STATE"
@@ -66,6 +66,7 @@
 
         <activity
             android:name="com.avaya.android.vantage.aaadevbroadcast.activities.MainActivity"
+            android:exported="true"
             android:resizeableActivity="false"
             android:configChanges="layoutDirection|locale|fontScale|keyboard|keyboardHidden"
             android:label="@string/app_name"
@@ -168,6 +169,7 @@
         <receiver
             android:name="com.avaya.deskphoneservices.DeskPhoneEventsBroadcastReceiver"
             android:enabled="true"
+            android:exported="true"
             tools:ignore="ExportedReceiver">
             <intent-filter>
                 <action android:name="com.avaya.endpoint.action.CONFIG_CHANGED" />
@@ -179,12 +181,14 @@
         </receiver>
         <receiver
             android:name="com.avaya.android.vantage.aaadevbroadcast.MidnightGoogleAnalyticsStatistics"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.avaya.android.vantage.aaadevbroadcast.receiver.FinishCallDialerActivityReciver">
+        <receiver android:name="com.avaya.android.vantage.aaadevbroadcast.receiver.FinishCallDialerActivityReciver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.avaya.endpoint.FINISH_CALL_ACTIVITY" />
             </intent-filter>
@@ -204,6 +208,7 @@
 
         <activity
             android:name="com.avaya.android.vantage.aaadevbroadcast.activities.SplashActivity"
+            android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/SplashTheme">
             <intent-filter android:priority="1000">

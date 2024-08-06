@@ -1,11 +1,11 @@
 <component name="libraryTable">
-  <library name="Gradle: com.google.android.exoplayer:exoplayer-dash:2.7.1@aar">
+  <library name="Gradle: com.google.android.exoplayer:exoplayer-dash:2.7.1@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/422c5cad229d83ae8943c9425acffb39/jetified-exoplayer-dash-2.7.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/712d62645321dcf639bcd8112e9a20ef/transformed/jetified-exoplayer-dash-2.7.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/422c5cad229d83ae8943c9425acffb39/jetified-exoplayer-dash-2.7.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/422c5cad229d83ae8943c9425acffb39/jetified-exoplayer-dash-2.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/712d62645321dcf639bcd8112e9a20ef/transformed/jetified-exoplayer-dash-2.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/712d62645321dcf639bcd8112e9a20ef/transformed/jetified-exoplayer-dash-2.7.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-dash/2.7.1/5d34119915f1e1a70a1869d8a66d02ac4d445485/exoplayer-dash-2.7.1-javadoc.jar!/" />

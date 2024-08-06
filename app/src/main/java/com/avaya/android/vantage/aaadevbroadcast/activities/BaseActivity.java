@@ -724,7 +724,7 @@ public abstract class BaseActivity extends AppCompatActivity implements DialerFr
                 socket.on(Socket.EVENT_CONNECT, args -> {
                     //String regnumber;
                     //regnumber = VantageDBHelper.getParameter(getContentResolver(), VantageDBHelper.SIPUSERNUMBER);
-                    String lastFourDigits = "";     //substring containing last 4 characters
+                    /*String lastFourDigits = "";     //substring containing last 4 characters
 
                     if (regnumber.length() > 8)
                     {
@@ -733,8 +733,8 @@ public abstract class BaseActivity extends AppCompatActivity implements DialerFr
                     else
                     {
                         lastFourDigits = regnumber;
-                    }
-                    finalSocket.emit("reg", lastFourDigits);
+                    }*/
+                    finalSocket.emit("reg", regnumber);
                     Log.d("Sockets", "conectado: ");
                 }).on(Socket.EVENT_DISCONNECT, args -> {
                     Log.d("Sockets", "des-conectado: " + args[0]);
@@ -4156,7 +4156,7 @@ public abstract class BaseActivity extends AppCompatActivity implements DialerFr
             return;
         }
         // start the notification mechanism
-        startService(new Intent(this, NotificationService.class));
+        startForegroundService(new Intent(this, NotificationService.class));
         mNotifFactory = CallNotificationFactory.getInstance(getApplicationContext());
     }
 
@@ -4164,7 +4164,7 @@ public abstract class BaseActivity extends AppCompatActivity implements DialerFr
      * Starts {@link BluetoothStateService}
      */
     private void initBluetoothChangeListener() {
-        startService(new Intent(this, BluetoothStateService.class));
+        startForegroundService(new Intent(this, BluetoothStateService.class));
     }
 
     /**

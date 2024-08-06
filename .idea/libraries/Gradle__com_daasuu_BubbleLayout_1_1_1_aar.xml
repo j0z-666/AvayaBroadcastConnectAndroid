@@ -1,8 +1,9 @@
 <component name="libraryTable">
-  <library name="Gradle: com.daasuu:BubbleLayout:1.1.1@aar">
+  <library name="Gradle: com.daasuu:BubbleLayout:1.1.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/caa7c3c910928fc933981da9fbe26c97/jetified-BubbleLayout-1.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/caa7c3c910928fc933981da9fbe26c97/jetified-BubbleLayout-1.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/f41f3969e73e3711bff498d3d4a83944/transformed/jetified-BubbleLayout-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/f41f3969e73e3711bff498d3d4a83944/transformed/jetified-BubbleLayout-1.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/f41f3969e73e3711bff498d3d4a83944/transformed/jetified-BubbleLayout-1.1.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.daasuu/BubbleLayout/1.1.1/b2f38a3b3739825a1e19811121d6c3a326fea787/BubbleLayout-1.1.1-javadoc.jar!/" />

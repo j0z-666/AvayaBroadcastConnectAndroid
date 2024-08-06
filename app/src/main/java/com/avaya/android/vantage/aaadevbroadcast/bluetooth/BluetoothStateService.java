@@ -1,5 +1,11 @@
 package com.avaya.android.vantage.aaadevbroadcast.bluetooth;
 
+import static androidx.core.app.NotificationCompat.PRIORITY_MIN;
+
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -9,11 +15,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.IBinder;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.avaya.android.vantage.aaadevbroadcast.Constants;
+import com.avaya.android.vantage.aaadevbroadcast.R;
+import com.avaya.android.vantage.aaadevbroadcast.activities.MainActivity;
 import com.avaya.android.vantage.aaadevbroadcast.fragments.settings.BlueHelper;
 
 
@@ -60,6 +71,29 @@ public class BluetoothStateService extends Service {
         mConnectionPref = getApplicationContext()
                 .getSharedPreferences(Constants.CONNECTION_PREFS, Context.MODE_PRIVATE);
         registerReceiver(mBluetoothBroadcastReceiver, getBluetoothIntentFilter());
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        String channelId = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O ? createNotificationChannel(notificationManager) : "";
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, channelId);
+        Notification notification = notificationBuilder.setOngoing(true)
+                .setSmallIcon(R.mipmap.ic_launcher)
+                .setPriority(PRIORITY_MIN)
+                .setCategory(NotificationCompat.CATEGORY_SERVICE)
+                .build();
+
+        startForeground(1521, notification);
+    }
+
+    @RequiresApi(Build.VERSION_CODES.O)
+    private String createNotificationChannel(NotificationManager notificationManager){
+        String channelId = "VantageBroadcast Channel";
+        String channelName = "Bluetooth Service";
+        NotificationChannel channel = new NotificationChannel(channelId, channelName, NotificationManager.IMPORTANCE_HIGH);
+        // omitted the LED color
+        channel.setImportance(NotificationManager.IMPORTANCE_NONE);
+        channel.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        notificationManager.createNotificationChannel(channel);
+        return channelId;
     }
 
     @Override

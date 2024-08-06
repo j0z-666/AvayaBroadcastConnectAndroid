@@ -50,6 +50,7 @@ import com.avaya.clientservices.credentials.CredentialProvider;
 import com.avaya.clientservices.credentials.UserCredential;
 import com.avaya.clientservices.dialingrules.DialingRulesConfiguration;
 import com.avaya.clientservices.media.AudioCodec;
+import com.avaya.clientservices.media.AudioDevice;
 import com.avaya.clientservices.media.AudioInterface;
 import com.avaya.clientservices.media.DSCPPrecedenceConfiguration;
 import com.avaya.clientservices.media.MediaServicesInstance;
@@ -764,7 +765,8 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
 
         setNameExtensionVisibility();
 
-
+        //j0z
+        //SDKManager.getInstance().getDeskPhoneServiceAdaptor().myOnLogin();
         completionHandler.onFinish();
     }
 
@@ -812,6 +814,13 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
         });
 
         completionHandler.onFinish();
+    }
+
+    public void myOnLogin(){
+        new Handler(Looper.getMainLooper()).post(() -> {
+            // if this is the first time user is created after configuration was received - the client shall be recreated
+            createUser((mPreviousConfig.size() == 0) && (mConfig.size() != 0));
+        });
     }
 
     /**
@@ -869,6 +878,16 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
         if (mUiObj != null && mUiObj.get() != null) {
             mUiObj.get().onRejectEvent();
         }
+    }
+
+    @Override
+    public void onRedialEvent(AudioDevice audioDevice) {
+
+    }
+
+    @Override
+    public void onHoldResumeEvent() {
+
     }
 
     @Override
@@ -2063,7 +2082,21 @@ public class DeskPhoneServiceAdaptor implements UserRegistrationListener, Creden
     public String getCredential(ConfigParametersNames param) {
         /*if (param == SIPUSERNAME)
             return null;*/
+        /*String val = "";
+        switch (param){
+            case SIPUSERNAME:
+                val = "2219533";
+                break;
+            case SIPPASSWORD:
+                val = "Avaya123";
+                break;
+            default:
+               val = mCredentials.get(param.getName());
+               break;
+        }
+        return val;*/
         return mCredentials.get(param.getName());
+
     }
 
     /**
